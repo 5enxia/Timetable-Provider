@@ -1,7 +1,7 @@
 # Timetable-Provider
 Provide timetables with users via LINE Messaging API
 
-## Requirment
+## Requirement
 - Python3
 - Django
 - [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)
