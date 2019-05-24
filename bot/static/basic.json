@@ -1,0 +1,99 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "direction": "ltr",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "八王子駅",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "平日"
+            }
+          ]
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "キャンパス発"
+            },
+            {
+              "type": "text",
+              "text": "08:08"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "駅着発"
+            },
+            {
+              "type": "text",
+              "text": "08:14"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "text",
+              "text": "キャンパス着"
+            },
+            {
+              "type": "text",
+              "text": "08:20"
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "詳細はこちら",
+            "uri": "https://www.teu.ac.jp/campus/access/006644.html#bustimetable006644.html#bus"
+          }
+        }
+      ]
+    },
+    "styles": {
+      "body": {
+        "separator": true
+      },
+      "footer": {
+        "separator": true
+      }
+    }
+  }
+}

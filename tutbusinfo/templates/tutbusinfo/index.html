@@ -1,0 +1,13 @@
+{% if stations %}
+<ul>
+  {% for station in stations %}
+  <li>
+    <a href="/tutbusinfo/{{ station.name }}/">
+      {{ station.name }}
+    </a>
+  </li>
+  {% endfor %}
+  </ul>
+{% else %}
+  <p>No stations are available.</p>
+{% endif %}

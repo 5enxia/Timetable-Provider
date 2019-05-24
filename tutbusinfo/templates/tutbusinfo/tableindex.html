@@ -1,0 +1,9 @@
+<ul>
+  {% for table in tables %}
+  <li>
+    <a href="{% url 'tableindex' station_name%}{{table.name}}">
+      {{ table.name }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>

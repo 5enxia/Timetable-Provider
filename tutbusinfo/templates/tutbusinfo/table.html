@@ -1,0 +1,14 @@
+<h1>{{now}}</h1>
+<table>
+    <thead>
+    </thead>
+    <tbody>
+        {% for row in rows %}
+        <tr>
+          <td>{{row.left_campus}}</td>
+          <td>{{row.arrive_station}}</td>
+          <td>{{row.arrive_campus}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
